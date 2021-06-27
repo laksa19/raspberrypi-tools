@@ -5,6 +5,9 @@
 sudo su
 ```
 ```bash
+apt install dnsmasq
+```
+```bash
 wget --show-progress --progress=bar:force -qO /usr/bin/wlan2eth https://raw.githubusercontent.com/laksa19/raspberrypi-tools/master/wlan2eth/wlan2eth && chmod +x /usr/bin/wlan2eth 
 ```
 
